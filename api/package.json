@@ -1,0 +1,15 @@
+{
+  "name": "cash-machine",
+  "version": "1.0.0",
+  "description": "Teste do Cash Machine",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -e 'require(\"./web\").start(null, \"../frontend\");'",
+    "start-api": "node -e 'require(\"./web\").start();'"
+  },
+  "author": "\"Thiago Costa\" <admin@rootbsd.info>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
